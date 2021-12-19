@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4423175e-0c6b-47b3-a86c-977bb68bbd31" name="Default Changelist" comment="font" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qvtwpkX5WyoYsneXq78ikizAA7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/dk/sdk/android-sdk-windows" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4423175e-0c6b-47b3-a86c-977bb68bbd31" name="Default Changelist" comment="" />
+      <created>1617972133015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617972133015</updated>
+      <workItem from="1617972134380" duration="336000" />
+      <workItem from="1617972488452" duration="1739000" />
+      <workItem from="1617974317945" duration="2571000" />
+      <workItem from="1617977933158" duration="90000" />
+      <workItem from="1617978124514" duration="404000" />
+      <workItem from="1617978986557" duration="2156000" />
+      <workItem from="1618412764105" duration="1723000" />
+      <workItem from="1618627647836" duration="18000" />
+      <workItem from="1618642963902" duration="520000" />
+      <workItem from="1618966914878" duration="401000" />
+      <workItem from="1619242056506" duration="25000" />
+      <workItem from="1639927715167" duration="296000" />
+      <workItem from="1639928022279" duration="119000" />
+      <workItem from="1639928736683" duration="564000" />
+      <workItem from="1639929361295" duration="73000" />
+      <workItem from="1639929623158" duration="168000" />
+    </task>
+    <task id="LOCAL-00001" summary="add title">
+      <created>1617974004471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617974004471</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adapted for mobile">
+      <created>1617974365104</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617974365104</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adapted for mobile 2">
+      <created>1617974638174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617974638174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adapted for mobile 3">
+      <created>1617974876471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617974876471</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adapted for mobile 4">
+      <created>1617975538322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617975538322</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adapted for mobile 5">
+      <created>1617975901042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617975901042</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adapted for mobile 6">
+      <created>1617976133037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617976133037</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adapted for mobile 7">
+      <created>1617976595185</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617976595185</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adapted for mobile 8">
+      <created>1617976871043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617976871043</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adapted for mobile 9">
+      <created>1617977984460</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617977984460</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Case ignored">
+      <created>1617978298954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617978298954</updated>
+    </task>
+    <task id="LOCAL-00012" summary="search and reset">
+      <created>1617979303386</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617979303386</updated>
+    </task>
+    <task id="LOCAL-00013" summary="font size">
+      <created>1617981004159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617981004159</updated>
+    </task>
+    <task id="LOCAL-00014" summary="font size 2">
+      <created>1617981076209</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617981076209</updated>
+    </task>
+    <task id="LOCAL-00015" summary="font size 3">
+      <created>1617981168314</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617981168314</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update selectList,footer">
+      <created>1618643168274</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618643168274</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first">
+      <created>1639927756364</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639927756364</updated>
+    </task>
+    <task id="LOCAL-00018" summary="first">
+      <created>1639927924636</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639927924636</updated>
+    </task>
+    <task id="LOCAL-00019" summary="font">
+      <created>1639929655558</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639929655558</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add title" />
+    <MESSAGE value="Adapted for mobile" />
+    <MESSAGE value="Adapted for mobile 2" />
+    <MESSAGE value="Adapted for mobile 3" />
+    <MESSAGE value="Adapted for mobile 4" />
+    <MESSAGE value="Adapted for mobile 5" />
+    <MESSAGE value="Adapted for mobile 6" />
+    <MESSAGE value="Adapted for mobile 7" />
+    <MESSAGE value="Adapted for mobile 8" />
+    <MESSAGE value="Adapted for mobile 9" />
+    <MESSAGE value="Case ignored" />
+    <MESSAGE value="search and reset" />
+    <MESSAGE value="font size" />
+    <MESSAGE value="font size 2" />
+    <MESSAGE value="font size 3" />
+    <MESSAGE value="update selectList,footer" />
+    <MESSAGE value="first" />
+    <MESSAGE value="font" />
+    <option name="LAST_COMMIT_MESSAGE" value="font" />
+  </component>
+</project>

@@ -274,13 +274,15 @@
 					</ul>
 				</div>
 			</div>
-			<div class="mui-content" style="margin-left:10px; margin-right: 10px; font-size:12px">
-				<ul class="mui-table-view">
+			<div class="mui-card">	
+				<div class="mui-table-view" style="font-size:12px">
 					 <li class="mui-table-view-cell" v-html="A"></li>
-				</ul>
+				</div>
 			</div>
 			<div class="mui-button-row">
+				<button type="button" class="mui-btn mui-btn-primary" @click="all">全选</button>&nbsp;&nbsp;
 				<button type="button" class="mui-btn mui-btn-warning" @click="search">搜索</button>&nbsp;&nbsp;
+				<button type="button" class="mui-btn mui-btn-danger" @click="clean">清空</button>&nbsp;&nbsp;
 			</div>
 			<br/><br/><br/><br/><br/><br/>
 			<div id="footer">
@@ -295,13 +297,14 @@
 		<script src="js/selectList.js"></script>	
 		<script src="js/underscore-min.js"></script>
 		<script>
+			//将角色id转为角色名称
 			function cn(target, array) {
 			    for(var i = 0 ; i < array.length ; i++)
 				{
 					if(target == array[i][0])
 						return array[i][2]
 				}
-			}
+			};
 			
 			var alist = [
 				[5,3,18,36],
@@ -337,6 +340,7 @@
 				[34,29,,37,30],
 				[34,24,29,30]
 				];
+			
 			hlist = [
 				//lei
 				[1,"lisha","丽莎"],
@@ -400,24 +404,50 @@
 					year : moment().format("YYYY")
 				},
 				methods: {
+					all(){
+						var inputs=document.getElementsByTagName("input");    //获取所有的input标签对象
+						var checkboxArray = [];                               //初始化空数组，用来存放checkbox对象
+						//遍历checkbox存入数组
+						for(var i=0;i<inputs.length;i++){
+							var obj=inputs[i];
+							obj.checked = true;
+						}
+					},
+					clean(){
+						var inputs=document.getElementsByTagName("input");    //获取所有的input标签对象
+						var checkboxArray = [];                               //初始化空数组，用来存放checkbox对象
+						//遍历checkbox存入数组
+						for(var i=0;i<inputs.length;i++){
+							var obj=inputs[i];
+							obj.checked = false;
+						}
+						this.A = "Please check, Waiting for your search...";
+					},
 					search() {
 						this.A = ""
-						var inputs=document.getElementsByTagName("input");  //获取所有的input标签对象
-						var checkboxArray = [];   //初始化空数组，用来存放checkbox对象
+						var inputs=document.getElementsByTagName("input");    //获取所有的input标签对象
+						var checkboxArray = [];                               //初始化空数组，用来存放checkbox对象
+						//遍历checkbox存入数组
 						for(var i=0;i<inputs.length;i++){
 							var obj=inputs[i];
 							if(obj.type=='checkbox' & obj.checked == true){
 								checkboxArray.push(Number(obj.value))
 							}
-						}
-						console.log(checkboxArray)
+						};
+						console.log(checkboxArray);
+						var count = 0;
 						for(var i =0; i< alist.length; i++)
 						{
 							if(checkboxArray.includes(alist[i][0]) && checkboxArray.includes(alist[i][1]) && checkboxArray.includes(alist[i][2]) && checkboxArray.includes(alist[i][3]))
 							{
-								this.A += cn(alist[i][0],hlist) + "," + cn(alist[i][1],hlist)  + "," + cn(alist[i][2],hlist)  + "," + cn(alist[i][3],hlist)+ "<br/>";
+								count +=1;
+								this.A += count + ": " + cn(alist[i][0],hlist) + "," + cn(alist[i][1],hlist)  + "," + cn(alist[i][2],hlist)  + "," + cn(alist[i][3],hlist)+ "<br/>";
 							}
 						}
+						if(checkboxArray.length<4)
+							this.A += "很遗憾,你并不拥有超过4个角色!"
+						else if(count == 0)
+							this.A += "很遗憾没有推荐卡组,假设你有行秋/班尼特?"
 					}
 				}
 			});
